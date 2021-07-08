@@ -32,3 +32,23 @@ class ParametrosPorReferencia
 
         }
 ```
+
+
+# TermoThis
+
+>Faz Referencia A classe ```Acessar``` sendo assim podendo utilizar a variavel ```senha``` que antes dava conflito.
+
+```
+    class Acessar
+    {
+        string senha = "abc123";
+
+        public bool Login(string senha)
+        {
+            return this.senha == senha;
+        }
+
+    }
+```
+
+
