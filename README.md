@@ -1,5 +1,4 @@
 ## cSharp
 # Atividades e Anotações em cSharp
 
-![endpoint/](https://imgur.com/a/DO9FgSo)
-![Alt ou título da imagem](https://imgur.com/a/DO9FgSo)
+<a name="README">[<img src="https://martinchavez.github.io/Assets/Logos/csharp.svg" width="300px" height="300px" />](https://discord.gg/zXuKuu9)</a>
