@@ -109,3 +109,36 @@ class Program
         }
 
 ```
+
+# Classes parciais
+
+>Ao trabalhar em projetos grandes, dividir uma classe em arquivos separados permite que vários programadores trabalhem ao mesmo tempo.
+>Ao trabalhar com código-fonte gerado automaticamente, o código pode ser adicionado à classe sem precisar recriar o arquivo de origem. O Visual Studio usa essa abordagem quando cria Windows Forms, código de wrapper de serviço Web e assim por diante. Você pode criar código que usa essas classes sem precisar modificar o arquivo que o Visual Studio cria.
+>Ao usar geradores de origem para gerar funcionalidade adicional em uma classe.
+Para dividir uma definição de classe, use o modificador de palavra-chave partial, como mostrado aqui:
+
+```
+    partial class Pessoa
+    {
+
+        public void Apresentar()
+        {
+            Console.WriteLine("Ola eu sou" + nome);
+        }
+
+        public static int CalCularIdade(int anoNascimento)
+        {
+            return DateTime.Now.Year - anoNascimento;
+        }
+    }
+```
+>A palavra-chave partial indica que outras partes da classe, struct ou interface podem ser definidas no namespace. Todas as partes devem usar a palavra-chave partial. Todas as partes devem estar disponíveis em tempo de compilação para formar o tipo final. Todas as partes devem ter a mesma acessibilidade, tais como public, private e assim por diante. ```OBS: são duas claes criadas interligadas ```
+
+    partial class Pessoa
+    {
+        public static int maioridade = 18;
+
+        public string nome;
+        public int idade;
+
+    }
