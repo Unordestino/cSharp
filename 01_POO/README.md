@@ -142,3 +142,50 @@ Para dividir uma definição de classe, use o modificador de palavra-chave parti
         public int idade;
 
     }
+      
+# Propriedades da classe get e set
+
+>O corpo do acessador get assemelha-se ao de um método. Ele deve retornar um valor do tipo de propriedade. A execução do acessador get é equivalente à leitura do valor do campo. Por exemplo, quando você estiver retornando a variável particular do acessador get e as otimizações estiverem habilitadas, a chamada ao método do acessador get será embutida pelo compilador, portanto, não haverá nenhuma sobrecarga de chamada de método. No entanto, um método do acessador get virtual não pode ser embutido porque o compilador não sabe, em tempo de compilação, qual método pode >ser chamado em tempo de execução. A seguir está um acessador get que retorna o valor de um campo particular _name:
+
+```
+    class Teste
+    {
+        private string _nome;
+        public string sobrenome { get; } = "Silveira";
+
+        private int _idade;
+
+        public string Nome
+        {
+            get
+            {
+                return _nome; 
+            }
+
+            set
+            {
+                _nome = value;
+            }
+        }
+
+        public int Idade
+        {
+            get
+            {
+                return _idade;
+            }
+
+            set
+            {
+               if(value < 18)
+                {
+                    Console.WriteLine("idade não permetida!");
+                }
+                else
+                {
+                    _idade = value;
+                }
+            }
+        }
+```
+>O acessador set é semelhante a um método cujo tipo de retorno é void. Ele usa uma parâmetro implícito chamado value, cujo tipo é o tipo da >propriedade. No exemplo a seguir, uma acessador set é adicionado à propriedade Name: 
