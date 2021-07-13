@@ -124,3 +124,36 @@ int dia = DateTime.Now.Day;
 Thread.Sleep(1000); //Adicionar um delay de mil milissegundos = 1 segundo para continuar a leitura do codigo
 ```
 
+### Limpa Tela (Command)
+```
+Console.Clear();
+```
+
+### Imprime mensagem (Command)
+```
+Console.WriteLine();
+```
+
+### Pause o Programa (Command)
+```
+Console.WriteLine();
+```
+
+### Ordena Posição Do Texto (Command)
+```
+Console.SetCursorPosition(10,3);
+```
+### Cor Do Texto (Command)
+```
+Console.ForegroundColor = ConsoleColor.Blue
+```
+### Cor Do Fundo (Command)
+```
+Console.BackGroundColor = Console.Blue
+```
+### Reseta Color (Command)
+```
+Console.ResetColor ();
+```
+
+
