@@ -18,6 +18,23 @@ int n = Convert.ToInt32(Console.ReadLine());
 int.TryParse(Console.ReadLine(), out int n);
 
 ```
+### Tabulações
+```
+\n Nova linha
+\t Tabulação
+\b Backspace
+\A alerta
+\\ Utiliza "\" Barra
+\" Utiliza aspas
+```
+
+### Criar Documentarios 
+>Comentarios em c#
+```
+#region
+Console.WriteLine("Este é meu codigo comentado: ");
+#endregion
+```
 
 ### Tipos de conversões
 * Conversões implicita 
@@ -39,7 +56,6 @@ int b  = (int)a;
 float a = 8,9999f;
 int b = Convert.ToInt16(a);
 ```
-
 
 ### Variavel 
 >**Um objeto na memoria capaz de armazenar dados de diversos tipos.**
