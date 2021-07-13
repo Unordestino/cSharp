@@ -6,6 +6,13 @@
 * Não pode conter espaços 
 * Não pode ser palavra reservada
 
+### Tipos de inteiros
+>OBS ```Ushort, Uint, Ulong ``` Converte em positivo
+* Byte.MinValue // O tipo byte vai de 0 até 255
+* Sbyte.MaxValue // O tipo sbyte vai de -128 até 127
+* Short.MinValue // O tipo short vai de - 32768 até 32767
+* Ushort.MinValue // O tipo ushort vai de 0 até 65535
+
 ### Entrada de dados
 > 
 ```
