@@ -123,12 +123,19 @@ Observe que utilizamos o modificador override para implementar
 os métodos abstratos
 
 ```
-
 > Ao utilizar o abstrato em uma class todos os metodos que forem abstratos seram oobrigatorios serem implementados ao ser herdado por outra classe.
 > uma classe abstrata é uma classe q serve como base para outras classes que vão herdar não podemos instancia um objeto de uma classe abstrata.
 > ao criar metodos não abstratos devemos criar uma implementação e ao criar um metodo não abstratos não podemos criar uma implementação.
 > 
 > classes abstratas é uma classe base que vai servir de referencia para outras classes que vão ser herdadas assm podendo ter maior controle e organização do que o desenvolvedor deve ou não fazer ao utilizar minha classe abstrata
+
+# Herança
+* Herança é um conceito chave usado na programação orientada a objetos para descrever uma relação entre as classes;
+* Por meio da herança uma classe copia ou herda todas as propriedades, atributos e métodos de uma outra classe, podendo assim estender sua funcionalidade;
+* A classe que cede os membros para a outra classe é chamada superclasse, classe pai ou classe base;
+* A classe que herda os membros da outra classe é chamada subclasse ou classe derivada;
+* A herança permite a reutilização de código e especifica um relacionamento de especialização/generalização do tipo "é um"
+
 
 # Parametros por Referencia(Red/Out)
   ```
