@@ -127,7 +127,8 @@ os métodos abstratos
 > Ao utilizar o abstrato em uma class todos os metodos que forem abstratos seram oobrigatorios serem implementados ao ser herdado por outra classe.
 > uma classe abstrata é uma classe q serve como base para outras classes que vão herdar não podemos instancia um objeto de uma classe abstrata.
 > ao criar metodos não abstratos devemos criar uma implementação e ao criar um metodo não abstratos não podemos criar uma implementação.
-> classes abstratas é uma classe base que vai servir de referencia para outras classes que vão herdadas assm podendo ter maior controle e organização do que o usuário deve ou não fazer ao utilizar minha classe abstrata 
+> 
+> classes abstratas é uma classe base que vai servir de referencia para outras classes que vão ser herdadas assm podendo ter maior controle e organização do que o desenvolvedor deve ou não fazer ao utilizar minha classe abstrata
 
 # Parametros por Referencia(Red/Out)
   ```
