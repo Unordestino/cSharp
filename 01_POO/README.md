@@ -136,6 +136,17 @@ os métodos abstratos
 * A classe que herda os membros da outra classe é chamada subclasse ou classe derivada;
 * A herança permite a reutilização de código e especifica um relacionamento de especialização/generalização do tipo "é um"
 
+> A linguagem C# suporta os seguintes tipos de herança:
+* 1- Herança Simples
+> É o tipo de herança em que há uma classe base e uma classe derivada.
+* 2- Herança Hierárquica
+> Este é o tipo de herança em que existem várias classes derivadas de uma classe base.
+> Esse tipo de herança é usado quando há um requisito de um recurso de classe necessário em várias classes.
+* 3- Multinível
+> Quando uma classe é derivada de outra classe derivada, esse tipo de herança é chamado de herança de vários níveis.
+* 4- Múltipla (interface)
+> A linguagem C# não suporta herança múltipla de classes.
+> Para superar esse problema, podemos usar interfaces onde uma classe pode implementar mais de uma interface ou de uma classe e de uma ou mais de  uma interface.
 
 # Parametros por Referencia(Red/Out)
   ```
