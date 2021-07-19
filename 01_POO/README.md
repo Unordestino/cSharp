@@ -4,6 +4,126 @@
 * Encapsulamento
 * Pocimorfismo
 
+# Classes Abstratas
+
+### Classes Abstratas:
+
+- Uma classe abstrata é uma classe que não pode ser instanciada. Você não pode criar um objeto a partir de uma classe abstrata.
+- Uma classe abstrata pode ser herdada e geralmente serve como classe base para outras classes.
+- Uma classe abstrata pode conter métodos abstratos e métodos comuns. Uma classe abstrata também podem possuir construtores, propriedades, indexadores e eventos.
+- Uma classe abstrata não pode ser estática (static). Uma classe abstrata não pode ser selada (sealed).
+- Uma classe abstrata pode herdar de outra classe abstrata.
+
+### Métodos Abstratos:
+
+- Um método abstrato é um método que não possui implementação na classe abstrata. Um método abstrato possui somente a definição de sua assinatura. A sua implementação deve ser feita na classe derivada.
+- Um método abstrato é um método virtual e deve ser implementado usando o modificador override.
+- Um método abstrato somente pode existir em uma classe abstrata.
+- Um método abstrato não pode usar os modificadores static e virtual.
+
+```
+   public abstract class Forma
+    {
+        private double _area;
+        private string _cor;
+        private double _perimetro;
+
+        public string Cor
+        {
+            get
+            {
+                return _cor;
+            }
+            set
+            {
+                _cor = value;
+            }
+        }
+
+        public double Area
+        {
+            get
+            {return _area;}
+            set
+            {_area = value;}
+
+        }
+       
+        public double Perimetro
+        {
+            get
+            {return _perimetro;}
+            set
+            { _perimetro = value; }
+        }
+
+        public abstract void CalcularArea();
+        public abstract void CalcularPerimetro();
+        public string Descricao()
+        {
+            return "Sou a classe abstrata Forma.";
+        }
+    }
+-------------------------------------------------------------------------------------------------
+Na classe abstrata Forma temos definidos:
+As propriedades públicas : Cor, Area e Perimetro
+
+Os métodos abstratos : CalcularArea() e CalcularPermitero()
+
+O método público Descricao()
+
+ 
+
+A classe Forma não pode ser instanciada.
+
+Se você tentar criar um objeto do tipo Forma :
+
+Forma f = new Forma()
+
+o compilador vai emitir a mensagem de erro:
+Cannot create an instance of the abstract class or interface
+
+Vamos criar a classe Quadrado que vai herdar da classe Forma
+e implementar os métodos CalcularArea() e CalcularPerimetro()
+
+Observe que os métodos CalcularArea() e CalcularPerimetro() tiveram
+apenas a declaração de sua assinatura e não foram implementados na
+classe abstrata Forma.
+```
+> Vamos definir a classe Quadrado que vai herdar da classe Figura digitando o código abaixo:
+
+```
+public class Quadrado : Forma
+    {
+        private double lado;
+        public double Lado
+        {
+            get
+            {return lado;}
+            set
+            {lado = value;}
+        }
+
+        public override void CalcularArea()
+        {
+            this.Area = lado * lado;
+        }
+
+        public override void CalcularPerimetro()
+        {
+            this.Perimetro = 4 * lado;
+        }
+    }
+------------------------------------------------------------------------------------
+A classe Quadrado possui a propriedade pública Lado
+A classe Quadrado implementa usando o modificador
+override os métodos CalcularArea() e CalcularPerimetro()
+
+Observe que utilizamos o modificador override para implementar
+os métodos abstratos
+
+```
+
 # Parametros por Referencia(Red/Out)
   ```
 class ParametrosPorReferencia
