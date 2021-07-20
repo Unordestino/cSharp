@@ -2,7 +2,20 @@
 * Abstração
 * Herança
 * Encapsulamento
-* Pocimorfismo
+* Polimorfismo 
+
+# Polimorfismo 
+
+Polimorfismo significa muitas formas , na orientação a objetos você pode enviar uma mesma mensagem para diferentes objetos e fazê-los responder da maneira correta.
+
+Você pode enviar a mensagem mover para cada objeto semelhante a um veiculo e cada um vai se comportar de maneira diferente para atender a sua solicitação.
+ 
+Quando uma mesma mensagem pode ser processada de diferentes formas temos um exemplo de polimorfismo.
+
+Uma definição mais formal diria:
+
+"Polimorfismo é o princípio pelo qual duas ou mais classes derivadas de uma mesma superclasse podem invocar métodos que têm a mesma identificação (assinatura) mas comportamentos distintos, especializados para cada classe derivada, usando para tanto uma referência a um objeto do tipo da superclasse"
+
 
 # Encapsulamento
 
