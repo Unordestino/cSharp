@@ -20,7 +20,9 @@ Um modificador de acesso define o escopo e a visibilidade de um membro da classe
 
 * Internal
 
-* Protected Internal.
+* Protected Internal
+
+Esse pilar visa a proteção de variáveis importantes dentro de uma classe que não podem ser manipualadas diretamente 
 
 # Classes Abstratas
 
