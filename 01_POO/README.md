@@ -4,6 +4,24 @@
 * Encapsulamento
 * Pocimorfismo
 
+# Encapsulamento
+
+O encapsulamento é o processo de ocultar ou esconder os membros de uma classe do acesso exterior usando modificadores de acesso. O encapsulamento também é chamado de ocultação de informação ou information hiding.
+
+O encapsulamento fornece uma maneira de preservar a integridade do estado dos dados. Ao invés de definir campos públicos devemos definir campos de dados privados.
+
+Um modificador de acesso define o escopo e a visibilidade de um membro da classe. A linguagem C# suporta os seguintes modificadores de acesso: 
+
+* Public
+
+* Private
+
+* Protected
+
+* Internal
+
+* Protected Internal.
+
 # Classes Abstratas
 
 ### Classes Abstratas:
