@@ -1,3 +1,10 @@
+### Atalhos para Microsoft Visual Studio
+```
+Ctrl + K + C -> Comenta todo o codigo selecionado
+Ctrl + D - > Duplica a linha de codigo 
+Ctrl + Alt -> Utilizando a setinha pra cim ou para baixo cnsegue mover a linha de codigo
+Ctrl + F5 -> Compila a aplicação
+```
 ### Regras C#
 * Começar com uma letra ou sublinhado ou @
 * Maiúsculas e minúculas fazem diferença
