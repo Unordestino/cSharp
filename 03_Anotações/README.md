@@ -120,6 +120,14 @@ Console.WriteLine($"A soma de {num1} + {num2} é igual: {num1 / num2:N2}");
 Random gerador = new Random();
 int n = gerador .Next(4, 50); // Números aleatorios de 4 a 49 
 ```
+### Inverte frase (Coding)
+```
+string frase = Console.ReadLine();
+char[] array = frase.ToCharArray();
+Array.Reverse(array);
+Console.WriteLine(array);
+```
+
 ### DateTime Dia, Mês, Ano (Command)
 >Para definir : Hora, Minuto, Segundo, Ano, Mes e Dia atual do usuario!
 ```
