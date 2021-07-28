@@ -1,3 +1,8 @@
+### Introdução
+
+C# : uma linguiagem de programação
+DotNet : .NET(2002): uma plataforma de desenvolvimento para se criar diversos tipos de aplicações, podendo usar várias linguagens de programação.
+
 ### Atalhos para Microsoft Visual Studio
 ```
 Ctrl + K + C -> Comenta todo o codigo selecionado
