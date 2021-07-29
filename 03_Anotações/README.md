@@ -9,6 +9,7 @@ Ctrl + K + C -> Comenta todo o codigo selecionado
 Ctrl + D - > Duplica a linha de codigo 
 Ctrl + Alt -> Utilizando a setinha pra cim ou para baixo cnsegue mover a linha de codigo
 Ctrl + F5 -> Compila a aplicação
+Ctrl + K + D - > Organiza todo o codigo automaticamente 
 ```
 ### Regras C#
 * Começar com uma letra ou sublinhado ou @
