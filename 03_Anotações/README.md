@@ -120,6 +120,35 @@ Console.WriteLine($"A soma de {num1} + {num2} é igual: {num1 / num2:N2}");
 >Um método é um bloco de código que contém uma série de instruções. 
 >Um programa faz com que as instruções sejam executadas chamando o método e especificando os argumentos de método necessários
 
+### Split - coding
+
+```
+int.TryParse(Console.ReadLine(), out int n1);
+char.TryParse(Console.ReadLine(), out char ch);
+double.TryParse(Console.ReadLine(), out double n2);
+
+string[] vet = Console.ReadLine().Split(' ');
+
+string nome = vet[0];
+char sexo = char.Parse(vet[1]);
+int idade = int.Parse(vet[2]);
+
+```
+```
+Console.Write("Dia");
+
+string lineDia1 = Console.ReadLine();
+string[] vet3 = lineDia1.Split(' ');
+int.TryParse(vet3[0], out int diaInicial);
+
+string line = Console.ReadLine();
+string[] vet1 = line.Split(':');
+int.TryParse(vet1[0], out int horaInicial);
+int.TryParse(vet1[1], out int minutoInicial);
+int.TryParse(vet1[2], out int segundoInicial);
+
+```
+
 ### Randorizador (Command)
 >Gera números aleatorios
 ```
