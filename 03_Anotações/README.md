@@ -212,5 +212,11 @@ Console.BackGroundColor = Console.Blue
 ```
 Console.ResetColor ();
 ```
+### Meotodo Trim 
+Revome os espaços de inicio e fim
+```
+string msg = "         Hello World        ";
+Console.ReadLine(msg.Trim);
+```
 
 
