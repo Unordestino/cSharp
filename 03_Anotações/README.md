@@ -55,6 +55,15 @@ int.TryParse(Console.ReadLine(), out int n);
 Console.WriteLine("Este é meu codigo comentado: ");
 #endregion
 ```
+#### Debugging
+```
+F9 -> Marcar/Desmarcar breakpoint
+F5 -> Iniciar/Continuar o bug
+F10 -> Executar um passo (Pula função)
+F11 -> Executar um passo (entra na função)
+SHIFT + F11 -> sair do método em execução
+SHIFT + F5 -> parar debug
+```
 
 ### Tipos de conversões
 * Conversões implicita 
