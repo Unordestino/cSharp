@@ -1,4 +1,5 @@
 ### Membros Estáticos
+* Todo membro de classe deve iniciar com letra maiuscula
 * Também chamados membros de classe
 * Em eposição a membros e instância
 
