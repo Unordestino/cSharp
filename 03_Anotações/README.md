@@ -205,6 +205,11 @@ Console.WriteLine();
 Console.WriteLine();
 ```
 
+### Beep windonws (Command)
+```
+Console.Beep(234, 100);
+```
+
 ### Ordena Posição Do Texto (Command)
 ```
 Console.SetCursorPosition(10,3);
