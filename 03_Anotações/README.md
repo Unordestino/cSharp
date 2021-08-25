@@ -172,6 +172,30 @@ Array.Reverse(array);
 Console.WriteLine(array);
 ```
 
+### Substituir o método ToString
+```
+class Person
+{
+    public string Name { get; set; }
+    public int Age { get; set; }
+
+    public override string ToString()
+    {
+        return "Person: " + Name + " " + Age;
+    }
+    ------------------------------------------------------------------------
+    class Person
+{
+        public int Numero { get; private set; }
+        public string Titular { get; set; }
+        public double Saldo { get; private set; }
+        
+        public override string ToString() 
+        {
+            return $"Conta: {Numero}, Titular: {Titular}, Saldo: ${Saldo.ToString("F2", CultureInfo.InvariantCulture)}";
+        }
+```
+
 ### DateTime Dia, Mês, Ano (Command)
 >Para definir : Hora, Minuto, Segundo, Ano, Mes e Dia atual do usuario!
 ```
