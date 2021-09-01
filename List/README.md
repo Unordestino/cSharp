@@ -21,4 +21,10 @@ List<string> l = new List<string>();
    
   ```l.RemoveAll(x => x[0] == 'M');```  Remove todos os elemento que começa com M
   
+  ```l.RemoveAt(3);```  Remove o elemento de acordo com sua posição
+  
+  ```l.RemoveRange(2, 2);```  Remove 2 elementos a partir da posição 2 em diante
+
+  ```List<string> list2 = l.FindAll(x => x.Length == 5);```  Mostra todo elemento q tenha o tamanho 5
+  
 
