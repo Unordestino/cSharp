@@ -1,3 +1,6 @@
+# Classe 
+>define os atributos e métodos comuns que serão compartilhados por um objeto
+
 # Pilares Do POO
 * Abstração
 * Herança
