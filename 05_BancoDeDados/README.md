@@ -39,3 +39,6 @@ associa a registros de outras tabelas.
 > Informal - Aspectos Práticos e termos: tabela, linha e coluna
 
 > Formal - Semântica formal do modelo e termos: relação (tabela), tupla (linha) e atributo (coluna)
+
+
+<img src="https://imgur.com/qxP4Qlk.png">
