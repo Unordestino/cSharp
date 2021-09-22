@@ -384,3 +384,8 @@ Para dividir uma definição de classe, use o modificador de palavra-chave parti
         }
 ```
 >O acessador set é semelhante a um método cujo tipo de retorno é void. Ele usa uma parâmetro implícito chamado value, cujo tipo é o tipo da >propriedade. No exemplo a seguir, uma acessador set é adicionado à propriedade Name: 
+
+# Classes abstratas
+>São classes que não podem ser instanciadas. 
+
+>É uma forma de garantir herença total: somente subclasses não abstratas podem ser instanciadas, mas nunca a superclasse abstrata
