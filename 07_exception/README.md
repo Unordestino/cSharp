@@ -8,7 +8,7 @@ métodos em execução, até que seja capturada (tratada) ou o
 programa seja encerrado
 
 
-# Estrutura try-catch
+# Estrutura try-catch-finaly
 
 * Bloco Try
 > Contém o código que representa a execução normal do trecho de código que pode acarretar em uma execução
@@ -16,6 +16,12 @@ programa seja encerrado
 * Bloco Catch
 > Contém o codigo a ser executado caso uma exeção ocorra
 > Deve ser especificado o tipo de exceção a ser tratada (upcasting é permitido)
+
+* Bloco finally
+> É um bloco que contém código a ser executado independentemente de ter ocorrido ou não uma execeção
+> 
+ Exemplo clássico: ```Fechar um arquivo ou conexão de banco de dados ao final do processamento.```
+
  ```
             try {
                 int n1 = int.Parse(Console.ReadLine());
@@ -31,5 +37,8 @@ programa seja encerrado
             }
             catch (FormatException e) {
                 Console.WriteLine("Error, Valor n reconhecido ");
+            }
+            finally {
+                Console.WriteLine("Fim da aplicação");
             }
 ```
