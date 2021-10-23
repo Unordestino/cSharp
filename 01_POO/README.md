@@ -40,6 +40,11 @@ Um modificador de acesso define o escopo e a visibilidade de um membro da classe
 
 Esse pilar visa a proteção de variáveis importantes dentro de uma classe que não podem ser manipualadas diretamente 
 
+# Abstração
+
+* Abstração para a OO, nada mais é do que você observar comportamentos e estruturas do dia a dia, e transformá-los em uma linguagem computacional.
+* Esse pilar, como o próprio nome diz, visa abstrair algo do mundo real e transforma-lo um objeto na programção.
+* Esse objeto será composto por uma identidade, propriedades e métodos.
 # Classes Abstratas
 
 ### Classes Abstratas:
