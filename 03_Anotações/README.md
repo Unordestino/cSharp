@@ -10,6 +10,7 @@ Ctrl + D - > Duplica a linha de codigo
 Ctrl + Alt -> Utilizando a setinha pra cim ou para baixo cnsegue mover a linha de codigo
 Ctrl + F5 -> Compila a aplicação
 Ctrl + K + D - > Organiza todo o codigo automaticamente 
+Ctrl + Shift + Espaço - > Mostra intelliSense (Sugetões de parametros)
 ```
 ### Regras C#
 * Começar com uma letra ou sublinhado ou @
