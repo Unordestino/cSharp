@@ -1,0 +1,11 @@
+```
+            int idade = 22;
+            double saldo = 10.35784;
+            string nome = "Davi";
+
+            Console.WriteLine(nome + " tem " + idade + " e tem um saldo de " + saldo.ToString("F2", CultureInfo.InvariantCulture));
+
+            Console.WriteLine("{0} tem {1} e tem um saldo de {2}", nome, idade, saldo.ToString("F2", CultureInfo.InvariantCulture));
+
+            Console.WriteLine($"{nome} tem {idade} e tem um saldo de {saldo.ToString("F2", CultureInfo.InvariantCulture)}");
+```
