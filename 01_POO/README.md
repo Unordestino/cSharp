@@ -55,6 +55,10 @@ Esse pilar visa a proteção de variáveis importantes dentro de uma classe que 
 - Uma classe abstrata não pode ser estática (static). Uma classe abstrata não pode ser selada (sealed).
 - Uma classe abstrata pode herdar de outra classe abstrata.
 
+### Interface
+Ela é um contrato onde quem assina se responsabiliza por implementar esses métodos (cumprir o contrato)
+Uma interface define um contrato. <br> Qualquer class ou que implementa esse contrato deve fornecer uma implementação dos membros struct definidos na interface . A partir do C# 8.0, uma interface pode definir uma implementação padrão para membros. Ele também pode definir static membros para fornecer uma única implementação para a funcionalidade comum.
+
 ### Métodos Abstratos:
 
 - Um método abstrato é um método que não possui implementação na classe abstrata. Um método abstrato possui somente a definição de sua assinatura. A sua implementação deve ser feita na classe derivada.
